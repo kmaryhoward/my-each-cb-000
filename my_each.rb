@@ -11,4 +11,3 @@ def my_each(array)
   "No array given"
   end
 end
-
