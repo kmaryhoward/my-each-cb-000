@@ -3,7 +3,7 @@ def my_each(array)
   i = 0
 
     while i > array.length
-      print yield array[i]
+      yield array[i]
       i += 1
     end
     array
@@ -12,7 +12,3 @@ def my_each(array)
   end
 end
 
-words = ['hi', 'hello', 'bye', 'goodbye']
-my_each(words) do |i|
-  print i
-end
