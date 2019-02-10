@@ -4,11 +4,15 @@ def my_each(array)
 
     while i > array.length
       yield array[i]
-      print array[i]
       i += 1
     end
     array
   else
   "No array given"
   end
+end
+
+words = ['hi', 'hello', 'bye', 'goodbye']
+my_each(words) do |i|
+  puts i
 end
