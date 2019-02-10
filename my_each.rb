@@ -1,4 +1,4 @@
-def my_each(array) 
+def my_each(array)
   if block_given?
   i = 0
 
@@ -11,4 +11,3 @@ def my_each(array)
   "No array given"
   end
 end
-
