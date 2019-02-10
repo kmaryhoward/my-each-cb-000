@@ -13,4 +13,3 @@ def my_each(array)
 end
 
 puts my_each(array)
-
