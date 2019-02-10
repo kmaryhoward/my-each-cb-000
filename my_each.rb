@@ -11,3 +11,8 @@ def my_each(array)
   "No array given"
   end
 end
+
+words = ['hi', 'hello', 'bye', 'goodbye']
+my_each(words) do |i|
+  print i
+end
